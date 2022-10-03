@@ -19,6 +19,7 @@ function calcular() {
     calcularOposto(document.getElementById('oInput'), a, h)
   } else alert('Informe os valores correspondentes!')
 }
+//Devido a problema no CORS, não foi possivel continuar a integração com a API. A mesma ja estava pronta, podendo ser consultada no Link https://replit.com/@SthephanyS/HipotenusaAPI
 function calcularApi(url, inputResult) {
   if (url != '') {
     axios
